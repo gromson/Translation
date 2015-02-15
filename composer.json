@@ -7,7 +7,7 @@
 	},
 	"extra": {
        		"installer-paths": {
-			"module/{$name}": ["vendor/package"]
+			"module/{$name}": ["vendor/translation"]
 		}
 	}
 }
