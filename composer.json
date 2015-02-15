@@ -8,8 +8,6 @@
 		"composer/installers": "~1.0"
 	},
 	"extra": {
-        	"installer-paths": {
-        		"installer-name": "Translation"
-		}
+		"installer-name": "Translation"
 	}
 }
