@@ -9,7 +9,7 @@
 	},
 	"extra": {
         	"installer-paths": {
-			"module/Translation": ["vendor/translation"]
+        		"installer-name": "Translation"
 		}
 	}
 }
