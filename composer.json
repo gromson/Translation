@@ -1,5 +1,5 @@
 {
-	"name":"gromson/Translation",
+	"name":"gromson/translation",
 	"type":"zend-module",
 	"version":"1.0.0",
 	"require":{
