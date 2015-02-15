@@ -1,9 +1,15 @@
 {
-	"name":"gromson/Translation",
+	"name":"gromson/translation",
+	"description":"Module for ZF2 app allowing Russian plural translate from php array",
 	"type":"zend-module",
 	"version":"1.0.0",
 	"require":{
         	"php":">=5.3.0",
 		"composer/installers": "~1.0"
+	}
+	"extra": {
+        	"installer-paths": {
+			"module/Translation": []
+		}
 	}
 }
