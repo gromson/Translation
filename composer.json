@@ -1,7 +1,7 @@
 {
 	"name":"gromson/translation",
-	"description":"Module for ZF2. Russian language optimized Translator. Allows to make a plural translate from php 
-array.",
+	"description":"Module for ZF2, Russian language optimized Translator, Allows to make a plural translate from php 
+array",
 	"version":"1.0.0",
 	"source":{
 		"type":"git",
