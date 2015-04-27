@@ -17,11 +17,17 @@ class Module
 			$session->locale = \Locale::acceptFromHttp( $_SERVER['HTTP_ACCEPT_LANGUAGE'] );
 		}
 
+		if( $session->locale == 'ru' ){
+			$session->locale = 'ru_RU';
+		}elseif($session->locale == 'en'){
+			$session->locale = 'en_EN';
+		}
+		
 		\Locale::setDefault( $session->locale );
 
 		$translator = $sm->get( 'translator' );
 		$translator->setLocale( $session->locale )
-			->setFallbackLocale( 'en_US' )
+//			->setFallbackLocale( 'en_EN' )
 			->factory( $sm->get( 'config' )['translator'] );
 	}
 
@@ -29,7 +35,7 @@ class Module
 	{
 		return include __DIR__ . '/config/module.config.php';
 	}
-	
+
 	public function getAutoloaderConfig()
 	{
 		return array(

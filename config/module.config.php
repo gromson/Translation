@@ -11,6 +11,6 @@ return array(
 		),
 	),
 	'translator' => array(
-		'locale' => 'en_US',
+		'locale' => 'ru_RU'//'en_US',
 	),
 );
